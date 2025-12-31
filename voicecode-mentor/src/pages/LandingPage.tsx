@@ -525,20 +525,22 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           
           <div className="h-px bg-gradient-to-r from-zinc-200 via-zinc-300 to-zinc-200 mb-12" />
           
-          <div className="aspect-video bg-gradient-to-br from-zinc-50 to-zinc-100 rounded-lg flex items-center justify-center relative overflow-hidden group border border-zinc-200 hover:border-zinc-300 transition-all hover:shadow-md">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 via-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <div className="relative z-10 text-center">
-              <div className="w-16 h-16 bg-zinc-900 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <Sparkles size={32} className="text-white" />
-              </div>
-              <p className="text-sm text-zinc-500 group-hover:text-zinc-700 transition-colors">
-                3-minute demo video (coming soon)
-              </p>
-            </div>
+          {/* YouTube Video Embed */}
+          <div className="aspect-video rounded-lg overflow-hidden border border-zinc-200 hover:border-zinc-300 transition-all hover:shadow-lg">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/-p-sW2UXYjY"
+              title="CodeE AI Demo - Voice-First Peer Programming"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="w-full h-full"
+            />
           </div>
           
-          <p className="text-sm text-zinc-500 mt-6 hover:text-zinc-700 transition-colors">
-            A walkthrough of voice conversation, code execution, and Socratic teaching in action.
+          <p className="text-sm text-zinc-500 mt-6 hover:text-zinc-700 transition-colors text-center">
+            Watch how CodeE AI enables voice-first pair programming for data structures and algorithms
           </p>
         </div>
       </section>
