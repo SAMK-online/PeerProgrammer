@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd voicecode-mentor && npm install && npm run build",
+  "outputDirectory": "voicecode-mentor/dist",
+  "installCommand": "cd voicecode-mentor && npm install",
+  "framework": null
+}
