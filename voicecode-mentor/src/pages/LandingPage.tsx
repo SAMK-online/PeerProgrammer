@@ -515,36 +515,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
         </div>
       </section>
 
-      {/* Demo Section */}
-      <section id="demo" className="py-20 px-8 border-t border-zinc-200">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-lg font-medium mb-12 flex items-center gap-3">
-            Demo
-            <span className="text-zinc-300">—</span>
-          </h2>
-          
-          <div className="h-px bg-gradient-to-r from-zinc-200 via-zinc-300 to-zinc-200 mb-12" />
-          
-          {/* YouTube Video Embed */}
-          <div className="aspect-video rounded-lg overflow-hidden border border-zinc-200 hover:border-zinc-300 transition-all hover:shadow-lg">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube-nocookie.com/embed/-p-sW2UXYjY?rel=0&modestbranding=1"
-              title="CodeE AI Demo - Voice-First Peer Programming"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="w-full h-full"
-            />
-          </div>
-          
-          <p className="text-sm text-zinc-500 mt-6 hover:text-zinc-700 transition-colors text-center">
-            Watch how CodeE AI enables voice-first pair programming for data structures and algorithms
-          </p>
-        </div>
-      </section>
-
       {/* Features Section */}
       <section className="py-20 px-8 border-t border-zinc-200">
         <div className="max-w-5xl mx-auto">
