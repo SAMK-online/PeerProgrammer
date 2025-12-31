@@ -530,7 +530,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/-p-sW2UXYjY"
+              src="https://www.youtube-nocookie.com/embed/-p-sW2UXYjY?rel=0&modestbranding=1"
               title="CodeE AI Demo - Voice-First Peer Programming"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
