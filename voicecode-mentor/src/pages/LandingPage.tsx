@@ -36,7 +36,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           
           <div className="flex items-center gap-8">
             <a
-              href="https://github.com/yourusername/codee-ai"
+              href="https://github.com/SAMK-online/PeerProgrammer"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-zinc-600 hover:text-zinc-900 transition-all hover:translate-x-0.5"
@@ -108,7 +108,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               </button>
               
               <a
-                href="https://github.com/yourusername/codee-ai"
+                href="https://github.com/SAMK-online/PeerProgrammer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-zinc-600 hover:text-zinc-900 transition-all hover:translate-x-0.5"
@@ -626,7 +626,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           </div>
           <div className="flex gap-8">
             <a 
-              href="https://github.com/yourusername/codee-ai" 
+              href="https://github.com/SAMK-online/PeerProgrammer" 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-zinc-900 transition-all hover:translate-x-0.5"
